@@ -1,0 +1,51 @@
+#main{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background-color: #eee;
+}
+
+#img-div{
+    background-color: #ddd;
+    padding-top: 35px;
+}
+
+#image{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 80%;
+}
+
+#img-caption{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 80%;
+    font-size: 12px;
+}
+
+#title-box{
+    background-color: #ccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#title{
+    font-size: 80px;
+}
+
+#ejemplo{
+    font-size: 22px;
+}
+
+#tribute-info{
+    margin-left: 10%;
+    margin-right: 10%;  
+}
+
+#pie-pagina{
+    padding-bottom: 7px;
+    padding-top: 7px;
+    background-color: #ccc;
+}
