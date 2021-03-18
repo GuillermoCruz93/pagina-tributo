@@ -1,51 +1,59 @@
 #main{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    background-color: #eee;
-}
-
-#img-div{
-    background-color: #ddd;
-    padding-top: 35px;
-}
-
-#image{
-    display: block;
-    margin: auto;
-    max-width: 100%;
-    width: 80%;
-}
-
-#img-caption{
-    display: block;
-    margin: auto;
-    max-width: 100%;
-    width: 80%;
-    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://github.com/GuillermoCruz93/Imagenes/blob/master/Fondos/double-bubble-dark.png?raw=true);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100vw;
+    justify-items: center;
 }
 
 #title-box{
-    background-color: #ccc;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    grid-column: 1/13;
+    color: beige;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 1em 0 1em 0;
+    width: 100vw;
 }
-
 #title{
-    font-size: 80px;
+    font-size: 2.8em;
+}
+#ejemplo{
+    font-style: italic;
+    font-size: 1.2em;
 }
 
-#ejemplo{
-    font-size: 22px;
+#img-div{
+    grid-column: 1/13;
+    background: rgba(146, 146, 146, 0.5);
+    padding: 2em 1em 0em 1em;
+    margin: 1em 1em 1em 1em;
+    font-size: .8em;
+    font-style: italic;
+    text-align: justify;
+    color: seashell;
+    border-radius: 12px;
+    max-width: 900px;
+}
+
+#image{
+    margin-bottom: 1em;
 }
 
 #tribute-info{
-    margin-left: 10%;
-    margin-right: 10%;  
+    grid-column: 1/13;
+    color: seashell;
+    margin: 1em 1em 1em 1em;
+    text-align: justify;
+    max-width: 900px;
 }
 
 #pie-pagina{
-    padding-bottom: 7px;
-    padding-top: 7px;
-    background-color: #ccc;
+    width: 100vw;
+    background: black;
+    color: seashell;
+    text-align: center;
+    grid-column: 1/13;
+    padding-top: 1em;
 }
